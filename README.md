@@ -1,12 +1,4 @@
-<h1 align ="center">Hola, amigo🙌</h1>
-<h3 align ="center">Welcome on my profile 🩵</h3>
+<img src="https://raw.githubusercontent.com/MortikCZ/MortikCZ/c7562b4e7486a9fac9715c4a3821b928c566b738/metrics.plugin.introduction.svg" alt="Introduction Metrics"/>
+  
+<img src="https://raw.githubusercontent.com/MortikCZ/MortikCZ/c7562b4e7486a9fac9715c4a3821b928c566b738/metrics.plugin.wakatime.svg" alt="Wakatime Metrics"/>
 
-<b>About me:</b>
-
-<ul>
-  <li>IT Student</li>
-  <li>Beginner developer</li>
-  <li>Computer networking enthusiast</li>
-</ul>
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mortikcz&layout=compact&theme=dark)
