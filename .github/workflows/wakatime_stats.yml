@@ -1,0 +1,20 @@
+name: WakaTime Stats
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  wakatime_stats:
+    runs-on: ubuntu-latest  
+    permissions:
+      contents: write
+    steps:
+      - name: Generate WakaTime stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.wakatime.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}

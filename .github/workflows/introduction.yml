@@ -1,0 +1,19 @@
+name: Introduction
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  wakatime_stats:
+    runs-on: ubuntu-latest  
+    permissions:
+      contents: write
+    steps:
+      - name: Introduction
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.introduction.svg
+          token: ${{ secrets.GH_TOKEN }}
+          user: github
+          base: header
+          plugin_introduction: yes
